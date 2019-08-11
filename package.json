@@ -1,0 +1,38 @@
+{
+  "name": "vue-timers",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/vue-timers.cjs.js",
+  "module": "dist/vue-timers.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initial-wu/vue-timers.git"
+  },
+  "keywords": [
+    "vue",
+    "timers"
+  ],
+  "author": "initial-wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/initial-wu/vue-timers/issues"
+  },
+  "homepage": "https://github.com/initial-wu/vue-timers#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.4.1",
+    "rollup": "^0.63.4",
+    "rollup-plugin-babel": "^3.0.7",
+    "vue": "^2.5.16"
+  }
+}
